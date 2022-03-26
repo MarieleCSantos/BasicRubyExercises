@@ -1,0 +1,14 @@
+Utilizando a estrutura de hash, crie variáveis de alunos que possuem os
+seguintes atributos: nome, nota e disciplina. Por exemplo: alberto = {
+nome: 'Alberto', nota: 7, disciplina: 'Artes' }. Em seguida, crie
+um array de alunos chamado alunos e o popule com os alunos criados.
+Utilize o que você aprendeu até agora para resgatar do array e imprimir na tela o
+nome do aluno, seguido da sua nota e a disciplina. No exemplo anterior o texto
+impresso ficaria assim:
+Alberto tirou nota 7 em Artes
+
+alunos = [{ nome: 'Alberto', nota: 7, disciplina: 'Artes' },
+{ nome: 'Maria', nota: 8, disciplina: 'Matemática' }, { nome: 'Julia', nota: 10, disciplina: 'Filosofia' }]
+
+puts (alunos[0][:nome] + ' tirou nota ' + alunos[0][:nota].to_s() + ' em ' + alunos[0][:disciplina])
+puts (alunos[1][:nome] + ' tirou nota ' + alunos[1][:nota].to_s() + ' em ' + alunos[1][:disciplina])
